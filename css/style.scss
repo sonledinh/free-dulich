@@ -17,7 +17,7 @@ body {
     font-weight: normal;
     font-family: 'Roboto';  
     h1, h2, h3, h4, h5, h6, p, label, ul, li, .card, a { 
-        text-decoration: none !important;      
+        text-decoration: none !important;       
         transition: .3s all;  
         margin-bottom: 0;  
         outline: none !important;  
@@ -274,6 +274,9 @@ footer {
             }
         }
     }
+    .desc {
+        font-family: "time";
+    }
 }
 .item-new-box {
     position: relative;
@@ -299,6 +302,7 @@ footer {
     color: #fff;
     background: $blue;
     padding: 15px;
+    font-family: "time";
     h3 {
         font-size: 18px;
         font-weight: 600;
@@ -564,6 +568,8 @@ footer {
             display: block;
             line-height: 1.5;
             word-break: break-all;
+            font-family: "time";
+            font-weight: 600;
         }
     }
 }
@@ -640,6 +646,7 @@ $speed: 60s;
   overflow: hidden;
   white-space: nowrap;
   font-size: 14px;
+  font-family: "time";
   
   &:hover &__item { animation-play-state: paused; }
   
@@ -655,3 +662,11 @@ $speed: 60s;
     100% { transform: translateX(-100%); }
 }
 
+
+.box-new-home {
+    .new-right {
+        .desc {
+            font-family: "time";
+        }
+    }
+}

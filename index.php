@@ -53,7 +53,7 @@
 			</div>
 		</div>
 	</section> -->
-	<section class="box-news">
+	<section class="box-news box-new-home"> 
 		<div class="container">
 			<div class="content-box">
 				<div class="row">

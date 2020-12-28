@@ -332,6 +332,8 @@ footer {
       display: flex;
       margin-bottom: 10px;
       font-weight: 600; }
+  .new-big .desc {
+    font-family: "time"; }
 
 .item-new-box {
   position: relative;
@@ -354,7 +356,8 @@ footer {
 .box-item-notice {
   color: #fff;
   background: #015aaa;
-  padding: 15px; }
+  padding: 15px;
+  font-family: "time"; }
   .box-item-notice h3 {
     font-size: 18px;
     font-weight: 600;
@@ -561,7 +564,9 @@ footer {
     font-size: 16px;
     display: block;
     line-height: 1.5;
-    word-break: break-all; }
+    word-break: break-all;
+    font-family: "time";
+    font-weight: 600; }
 
 #category {
   padding-bottom: 100px; }
@@ -619,7 +624,8 @@ footer {
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: "time"; }
   .marquee:hover .marquee__item {
     animation-play-state: paused; }
   .marquee__item {
@@ -632,5 +638,7 @@ footer {
     transform: translateX(0); }
   100% {
     transform: translateX(-100%); } }
+.box-new-home .new-right .desc {
+  font-family: "time"; }
 
 /*# sourceMappingURL=style.css.map */
