@@ -5,8 +5,8 @@ $('.slide-banner').slick({
     dots: false,
     slidesToShow: 1,
     slidesToScroll: 1, 
-    prevArrow: '',
-    nextArrow: '',
+    prevArrow: '<button class="prev"><i class="fa fa-arrow-left"></i></button>',
+    nextArrow: '<button class="next"><i class="fa fa-arrow-right"></i></button>',
     responsive: [
         {
             breakpoint: 767, 
